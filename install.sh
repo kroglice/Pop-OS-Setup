@@ -36,3 +36,4 @@ echo 'alias nvidia="watch -n 1 nvidia-smi"' >> ~/.bash_aliases
 echo 'alias sensors="watch -n 1 sensors"' >> ~/.bash_aliases
 
 sudo updatedb
+sudo reboot
