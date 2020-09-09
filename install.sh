@@ -5,7 +5,7 @@ sudo apt update
 sudo apt upgrade -y
 
 # Normal apps
-sudo apt install wget curl git firefox gedit vim nano w3m htop filezilla chromium-browser terminator openssh-server python3 python3-pip python3-virtualenv i3 zathura sxiv pandoc tree 
+sudo apt install wget curl git firefox gedit vim nano w3m htop filezilla chromium-browser terminator openssh-server python3 python3-pip python3-virtualenv i3 zathura sxiv pandoc tree mlocate lm-sensors
 
 # VScode
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
@@ -28,3 +28,11 @@ nnoremap ç <Esc>
 vnoremap ç <Esc>
 inoremap ç <Esc>
 " >> ~/.vimrc
+
+# .bash_aliases
+echo 'alias ..="cd .."' >> ~/.bash_aliases
+echo 'alias lt="ls -alt"' >> ~/.bash_aliases
+echo 'alias nvidia="watch -n 1 nvidia-smi"' >> ~/.bash_aliases
+echo 'alias sensors="watch -n 1 sensors"' >> ~/.bash_aliases
+
+sudo updatedb
