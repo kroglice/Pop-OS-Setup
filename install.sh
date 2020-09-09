@@ -35,5 +35,8 @@ echo 'alias lt="ls -alt"' >> ~/.bash_aliases
 echo 'alias nvidia="watch -n 1 nvidia-smi"' >> ~/.bash_aliases
 echo 'alias sensors="watch -n 1 sensors"' >> ~/.bash_aliases
 
+# Finishing tasks
+sudo apt update
+sudo apt upgrade -y
 sudo updatedb
 sudo reboot
