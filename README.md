@@ -12,7 +12,7 @@ sh install.sh
 sh zsh.sh
 ```
 
-## Add this to (.bashrc || .zshrc) when cuda is Installed
+## Add this to (~/.bashrc || ~/.zshrc) when cuda is Installed
 
 ```
 export PATH=/usr/local/cuda-10.0/bin${PATH:+:${PATH}}
