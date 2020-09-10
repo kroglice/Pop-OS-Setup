@@ -5,7 +5,7 @@ sudo apt update
 sudo apt upgrade -y
 
 # Normal apps
-sudo apt install wget curl git firefox gedit vim nano w3m htop filezilla chromium-browser terminator openssh-server python3 python3-pip python3-virtualenv i3 zathura sxiv pandoc tree mlocate lm-sensors -y
+sudo apt install wget curl git firefox gedit vim nano tmux w3m htop filezilla chromium-browser terminator openssh-server python3 python3-pip python3-virtualenv i3 zathura sxiv pandoc tree mlocate lm-sensors -y
 
 # VScode
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
