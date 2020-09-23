@@ -30,10 +30,10 @@ inoremap ç <Esc>
 " >> ~/.vimrc
 
 # .bash_aliases
-echo 'alias ..="cd .."' >> ~/.bash_aliases
-echo 'alias lt="ls -alt"' >> ~/.bash_aliases
-echo 'alias nvidia="watch -n 1 nvidia-smi"' >> ~/.bash_aliases
-echo 'alias sensors="watch -n 1 sensors"' >> ~/.bash_aliases
+echo 'alias ..="cd .."' >> ~/.bashrc
+echo 'alias lt="ls -alt"' >> ~/.bashrc
+echo 'alias nvidia="watch -n 1 nvidia-smi"' >> ~/.bashrc
+echo 'alias sensors="watch -n 1 sensors"' >> ~/.bashrc
 
 # Finishing tasks
 sudo apt update
