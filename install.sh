@@ -27,7 +27,7 @@ let python_highlight_all = 1
 nnoremap ç <Esc>
 vnoremap ç <Esc>
 inoremap ç <Esc>
-" >> ~/.vimrc
+" > ~/.vimrc
 
 # .bash_aliases
 echo 'alias ..="cd .."' >> ~/.bashrc
