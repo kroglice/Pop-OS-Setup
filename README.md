@@ -65,7 +65,7 @@ sudo chmod a+r /usr/local/cuda/include/cudnn*.h /usr/local/cuda-10.1/lib64/libcu
 
 # Utils
 
-# Install exfat support
+## Install exfat support
 
 ```
 sudo apt install exfat-fuse exfat-utils
