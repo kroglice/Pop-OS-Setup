@@ -31,7 +31,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda-<VERSION>/lib64${LD_LIBRARY_PATH:+:${LD_L
 ## Help when gcc-8 and g++-8 is needed:
 
 ```
-sudo apt install gcc-8 g++8
+sudo apt install gcc-8 g++-8
 ```
 
 ```
