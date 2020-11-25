@@ -72,3 +72,14 @@ sudo chmod a+r /usr/local/cuda/include/cudnn*.h /usr/local/cuda-10.1/lib64/libcu
 ```
 sudo apt install exfat-fuse exfat-utils
 ```
+
+# PCL & PCL-Python & QT
+
+```
+sudo apt install cmake-qt-gui doxygen mpi-default-dev openmpi-bin openmpi-common libusb-dev libqhull7 libqhull-dev libqhull-r7 libusb-dev libgtest-dev
+sudo apt install git freeglut3-dev pkg-config build-essential libxmu-dev libxi-dev phonon-backend-gstreamer-common
+sudo apt install graphviz mono-complete libflann-dev
+sudo apt install libpcl-dev
+sudo apt install python3-pcl
+sudo apt-get install python3-pyqt5*
+```
