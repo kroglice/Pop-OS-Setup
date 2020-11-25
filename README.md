@@ -81,5 +81,6 @@ sudo apt install git freeglut3-dev pkg-config build-essential libxmu-dev libxi-d
 sudo apt install graphviz mono-complete libflann-dev
 sudo apt install libpcl-dev
 sudo apt install python3-pcl
-sudo apt-get install python3-pyqt5*
+sudo apt install python3-pyqt5*
+sudo apt install python3-pyqt5
 ```
