@@ -84,3 +84,16 @@ sudo apt install python3-pcl
 sudo apt install python3-pyqt5*
 sudo apt install python3-pyqt5
 ```
+
+# Fixing Pip
+
+```
+sudo python3 -m pip uninstall pip && sudo apt install python3-pip --reinstall
+```
+
+
+
+
+
+
+
