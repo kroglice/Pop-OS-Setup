@@ -26,3 +26,18 @@ export PATH="$HOME/.local/bin:$PATH" && jupyter lab --no-browser --ip "*" --note
 ```bash
 ssh -N -L localhost:8888:localhost:8888 <username>@<serverip> -p <serversshport>
 ```
+
+
+# Jupyter AutoComplete
+* First, install the jupyter contrib nbextensions:
+```bash
+pip install jupyter_contrib_nbextensions
+```
+* Install the CSS and js files for the jupyter environment by using the following command:
+```bash
+jupyter contrib nbextension install --user
+```
+* In the last step, you need to enable the ‘hinterland’ extension.
+```bash
+jupyter nbextension enable hinterland/hinterland
+```
