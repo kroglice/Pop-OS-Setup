@@ -32,12 +32,11 @@ ssh -N -L localhost:8888:localhost:8888 <username>@<serverip> -p <serversshport>
 * First, install the jupyter contrib nbextensions:
 ```bash
 pip install jupyter_contrib_nbextensions
-```
-* Install the CSS and js files for the jupyter environment by using the following command:
-```bash
 jupyter contrib nbextension install --user
 ```
-* In the last step, you need to enable the ‘hinterland’ extension.
 ```bash
-jupyter nbextension enable hinterland/hinterland
+pip install jupyter-tabnine --user
+jupyter nbextension install --py jupyter_tabnine --user
+jupyter nbextension enable --py jupyter_tabnine --user
+jupyter serverextension enable --py jupyter_tabnine --user
 ```
