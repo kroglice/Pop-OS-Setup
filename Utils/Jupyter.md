@@ -28,8 +28,7 @@ ssh -N -L localhost:8888:localhost:8888 <username>@<serverip> -p <serversshport>
 ```
 
 
-# Jupyter AutoComplete
-* First, install the jupyter contrib nbextensions:
+# Jupyter AutoComplete [NotWorking]
 ```bash
 pip install jupyter_contrib_nbextensions
 jupyter contrib nbextension install --user
@@ -39,4 +38,7 @@ pip install jupyter-tabnine --user
 jupyter nbextension install --py jupyter_tabnine --user
 jupyter nbextension enable --py jupyter_tabnine --user
 jupyter serverextension enable --py jupyter_tabnine --user
+```
+```bash
+pip install jedi
 ```
