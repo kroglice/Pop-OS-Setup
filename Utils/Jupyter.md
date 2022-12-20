@@ -35,4 +35,8 @@ pip install pyreadline
 pip install ipython --upgrade
 pip install jedi
 ```
+* Disable jedi in a notebook helps sometimes in terms of speed
+```python
+%config Completer.use_jedi = False
+```
 
