@@ -29,6 +29,14 @@ vnoremap ç <Esc>
 inoremap ç <Esc>
 " > ~/.vimrc
 
+# Nano Config
+echo "set linenumbers
+set mouse
+set tabsize 4
+set tabstospaces
+set softwrap
+" > ~/.nanorc
+
 # .bash_aliases
 echo 'alias ..="cd .."' >> ~/.bashrc
 echo 'alias lt="ls -alt"' >> ~/.bashrc
@@ -40,3 +48,5 @@ sudo apt update
 sudo apt upgrade -y
 sudo updatedb
 sudo reboot
+
+
